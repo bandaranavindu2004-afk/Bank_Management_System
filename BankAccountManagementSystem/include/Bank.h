@@ -11,7 +11,6 @@ private:
     int nextTransactionID;
 
 public:
-    Bank();
     void addCustomer(const Customer& customer);
     void addAccount(Account* account);
     Account* findAccount(int accountNumber);
@@ -20,5 +19,4 @@ public:
     void showAllCustomers() const;
     void showAllAccounts() const;
     void showAllTransactions() const;
-    ~Bank();
 };
