@@ -29,4 +29,3 @@ void transaction::setCurrentDateTime() {
         time_t now = time(0);
         transdate_time = ctime(&now);
     }
-}
